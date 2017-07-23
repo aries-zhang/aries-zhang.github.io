@@ -8,7 +8,7 @@ plugins: [jekyll-paginate]
 # Setup
 title:               Windvoice
 tagline:             "A Coder\'s confession"
-description:         ''
+description:         "This is a website that records a coder's confession"
 url:                 http://arieszhang.me
 baseurl:             ''
 paginate:            10
