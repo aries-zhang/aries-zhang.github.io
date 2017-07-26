@@ -170,6 +170,14 @@ h1, h2, h3, h4, h5, h6 {
 .sidebar-item {
   padding: 1rem;
 }
+.sidebar-item img.sidebar-portrait {
+  border: 1px solid white;
+  display: block;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
 .sidebar-item p:last-child {
   margin-bottom: 0;
 }
