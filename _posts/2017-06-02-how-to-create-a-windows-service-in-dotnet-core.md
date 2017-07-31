@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to create a windows service with dotnet core
+title: How to create a windows service in dotnet core
 ---
 
 A couple of weeks ago, we started a new project which is to consume messages from EventHub in Microsoft Azure, process these messages, and store extracted data into our database in Aliyun. Since our team was considering the possibility of using dotnet core to make our apps capable of running on multiple platforms at the time, we decided to take a dive. However, while everything seemed ready, we still had a few troubles to overcome, which include this one: how to run a dotnet core console app as a windows service?
