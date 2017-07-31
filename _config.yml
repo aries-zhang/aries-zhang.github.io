@@ -7,8 +7,8 @@ plugins: [jekyll-paginate]
 
 # Setup
 title:               Windvoice
-tagline:             "Where the spirit of geek glints"
-description:         "This is where the thoughts and life of a Coder, jogger and a football fan is recorded."
+tagline:             "Where the spirit of a geek glints"
+description:         "This is where life and thoughts of a coder, jogger and a football fan is recorded."
 url:                 http://arieszhang.me
 baseurl:             ''
 paginate:            10
