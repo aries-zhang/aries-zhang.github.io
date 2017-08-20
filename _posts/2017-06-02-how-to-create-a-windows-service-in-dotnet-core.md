@@ -7,7 +7,7 @@ A couple of weeks ago, we started a new project which is to consume messages fro
 
 OK, here comes the answer: bridging and wrapping.
 
-Bridging seems more popular. The representatives are these two libraries which can help you create windows services in dotnet core easily: [DotNetCore.WindowsService](https://github.com/PeterKottas/DotNetCore.WindowsService) and 
+Bridging seems more popular. The representatives are these two libraries: [DotNetCore.WindowsService](https://github.com/PeterKottas/DotNetCore.WindowsService) and 
 [DasMulli.Win32.ServiceUtils](https://github.com/dasMulli/dotnet-win32-service). They basically adapt windows service facilities for dotnet core, and everything works just like what you do in .Net framework.
 
 Wrapping is less common but more delicate. In this way, you can wrap a dotnet standard library in a windows service that runs on .Net Framework. [This article](https://stackify.com/creating-net-core-windows-services/) introduces details about this method. What you need to pay attention to is the compatibility of dotnet standard versions (see the compatibility table [here](https://github.com/dotnet/standard/blob/master/docs/versions.md)). I have also written a simple app to exemplify this method, you can see it [here]().

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to permanently remove files from git history
+title: Permanently remove files from git history
 ---
 
 If you try to search on Google about how to permanently remove a large file that was accidentally committed to your git repository, you may find the following solution.
