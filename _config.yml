@@ -9,7 +9,7 @@ plugins: [jekyll-paginate]
 title:               Windvoice
 tagline:             "Where the spirit of a geek glints"
 description:         "This is where the life and thoughts of a coder, jogger and a football fan is recorded."
-url:                 http://arieszhang.me
+url:                 https://arieszhang.me
 baseurl:             ''
 paginate:            10
 
